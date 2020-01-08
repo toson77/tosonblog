@@ -116,10 +116,10 @@ widgets:
     social_links:
       Github:
         icon: fab fa-github
-        url: "https://github.com/ppoffice"
+        url: "https://github.com/toson77"
       Twitter:
         icon: fab fa-twitter
-        url: "https://twitter.com"
+        url: "https://twitter.com/westrohifi"
       RSS:
         icon: fas fa-rss
         url: /
@@ -134,7 +134,7 @@ widgets:
     # Links to be shown in the links widget
     links:
       Hexo: "https://hexo.io"
-      PPOffice: "https://github.com/ppoffice"
+
   - # Widget name
     type: category
     # Where should the widget be placed, left or right
