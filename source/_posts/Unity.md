@@ -1,6 +1,6 @@
 ---
 title: UnityとKinectで作るジェネラティブアート
-thumnail: /gallery/unity1.jpg
+thumbnail: /gallery/unity1.jpg
 date: 2020-01-09 01:01:15
 category:
   - programming
