@@ -1,4 +1,4 @@
-family-sans = "Ubuntu", "Roboto", "Open Sans", "Microsoft YaHei", sans-serif
+family-sans = "Ubuntu", "Roboto", "Noto Sans JP", "Microsoft YaHei", sans-serif
 family-mono = "Source Code Pro", monospace, "Microsoft YaHei"
 gap = 64px
 screen-tablet = 769px
@@ -11,9 +11,11 @@ screen-fullhd = 1472px
  * --------------------------------- */
 html
     font-size: 14px
+   
 
 body
     background-color: #f7f7f7
+    
 
 body, button, input, select, textarea
     font-family: family-sans
@@ -75,7 +77,7 @@ img.thumbnail
 .navbar-logo,
 .footer-logo
     img
-        max-height: 1.75rem
+        max-height: 2rem
 
 .navbar-main
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05)
@@ -175,6 +177,7 @@ img.thumbnail
     .article-meta
         margin-bottom: 0.5rem !important
     .content
+        font-weight: 400
         font-size: 1.1rem
         blockquote.pullquote
             float: right
@@ -298,6 +301,7 @@ img.thumbnail
 
 .has-link-grey,
 .has-link-black-ter
+    font-weight: 500
     transition: 0.2s ease
     &:hover
         color: hsl(217, 71%, 53%) !important

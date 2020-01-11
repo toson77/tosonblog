@@ -124,7 +124,6 @@ widgets:
     # Links to be shown in the links widget
     links:
       Hexo: "https://hexo.io"
-      PPOffice: "https://github.com/ppoffice"
   - # Widget name
     type: category
     # Where should the widget be placed, left or right
@@ -186,6 +185,6 @@ providers:
   # Name or URL of the JavaScript and/or stylesheet CDN provider
   cdn: jsdelivr
   # Name or URL of the webfont CDN provider
-  fontcdn: google
+  fontcdn: "https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500&display=swap"
   # Name or URL of the webfont Icon CDN provider
   iconcdn: fontawesome
