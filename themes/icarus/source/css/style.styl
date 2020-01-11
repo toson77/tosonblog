@@ -1,10 +1,10 @@
 family-sans = "Ubuntu", "Roboto", "Noto Sans JP", "Microsoft YaHei", sans-serif
 family-mono = "Source Code Pro", monospace, "Microsoft YaHei"
 gap = 64px
-screen-tablet = 769px
+screen-tablet = 768px
 screen-desktop = 1088px
 screen-widescreen = 1280px
-screen-fullhd = 1472px
+screen-fullhd = 1440px
 
 /* ---------------------------------
  *       Override CSS Framework
@@ -21,17 +21,24 @@ body, button, input, select, textarea
     font-family: family-sans
 
 @media screen and (min-width: screen-widescreen)
-    .is-1-column .container
-    .is-2-column .container
-        max-width: screen-desktop - 2 * gap
-        width: screen-desktop - 2 * gap
+    // .is-1-column .container
+    // .is-2-column .container
+    //     max-width: screen-desktop - 2 * gap
+    //     width: screen-desktop - 2 * gap
+    .is-3-column .container
+        max-width: 'calc( 100% - %s )' % gap
+        width: 'calc( 100% - %s )' % gap
+       
 @media screen and (min-width: screen-fullhd)
-    .is-2-column .container
-        max-width: screen-widescreen - 2 * gap
-        width: screen-widescreen - 2 * gap
-    .is-1-column .container
-        max-width: screen-desktop - 2 * gap
-        width: screen-desktop - 2 * gap
+    // .is-2-column .container
+    //     max-width: screen-widescreen - 2 * gap
+    //     width: screen-widescreen - 2 * gap
+    // .is-1-column .container
+    //     max-width: screen-desktop - 2 * gap
+    //     width: screen-desktop - 2 * gap
+    .is-3-column .container
+        max-width: 'calc( 100% - %s )' % gap
+        width: 'calc( 100% - %s )' % gap
 
 @media screen and (max-width: screen-tablet - 1)
     .section
