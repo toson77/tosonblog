@@ -290,7 +290,7 @@ circleObjMax(玉の数)を変えても均等に配置される。
 
 今回初めて github を使って共同制作した。複数人で 1 つの作品を制作-公開するにはすごく便利なツールだなと思った。(小並感)
 
-他の説明は相方に任せます。</br>
+他の説明は相方に任せます。良かったら見てください。詳しい説明乗ってます。</br>
 <a href="https://over-hk.net/articles/kinect-unity">Unity と Kinect で作るジェネレーティブアート:Part2</a></br>
 スクリプトは相方の github 上で公開してます。</br>
 <a href="https://github.com/H37kouya/kinect-unity">github:H37kouya/kinect-unity</a>
