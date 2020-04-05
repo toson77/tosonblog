@@ -123,7 +123,6 @@ widgets:
     position: left
     # Links to be shown in the links widget
     links:
-      Hexo: "https://hexo.io"
       Hatena blog: "http://bit.ly/2NhrCjF"
   - # Widget name
     type: category

@@ -3,7 +3,7 @@ title: UnityとKinectで作るジェネレーティブアート:Part1
 thumbnail: /thumbnail/unity1.jpg
 date: 2020-01-09 01:01:15
 category:
-  - programming
+  - Programming
 tags:
   - Kinect
   - Unity
@@ -60,8 +60,8 @@ using UnityEngine;
 
 public class FlowerCircle : MonoBehaviour
 {
-// このコルーチンの処理を待たせる時間
-public float WaitTime = 0.5f;
+    // このコルーチンの処理を待たせる時間
+    public float WaitTime = 0.5f;
 
     public float AllWaitTime = 1.0f;
 
@@ -200,29 +200,29 @@ public float WaitTime = 0.5f;
         return x * Double;
     }
 
-//一回目に円状に生成される玉の Y 座標
-float CircleY(int circleObjNum, int circleObjMax, int Double)
-{
-float angle = circleObjNum _ 360 / circleObjMax;
-float y = Mathf.Cos(angle _ (Mathf.PI / 180));
-return y \* Double;
-}
+　//一回目に円状に生成される玉のY座標
+    float CircleY(int circleObjNum, int circleObjMax, int Double)
+    {
+        float angle = circleObjNum * 360 / circleObjMax;
+        float y = Mathf.Cos(angle * (Mathf.PI / 180));
+        return y * Double;
+    }
 
-//一回目に生成された円を中心にして再度円状に生成される玉の X 座標
-float CirclechildX(int circleObjNum, int circleObjMax, int Double)
-{
-float angle = circleObjNum _ 360 / circleObjMax + 360 / circleObjMax / 2;
-float x = Mathf.Sin(angle _ (Mathf.PI / 180));
-return x \* Double;
-}
+　//一回目に生成された円を中心にして再度円状に生成される玉のX座標
+    float CirclechildX(int circleObjNum, int circleObjMax, int Double)
+    {
+        float angle = circleObjNum * 360 / circleObjMax + 360 / circleObjMax / 2;
+        float x = Mathf.Sin(angle * (Mathf.PI / 180));
+        return x * Double;
+    }
 
-//一回目に生成された円を中心にして再度円状に生成される玉の Y 座標
-float CirclechildY(int circleObjNum, int circleObjMax, int Double)
-{
-float angle = circleObjNum _ 360 / circleObjMax + 360 / circleObjMax / 2;
-float y = Mathf.Cos(angle _ (Mathf.PI / 180));
-return y \* Double;
-}
+　//一回目に生成された円を中心にして再度円状に生成される玉のY座標
+    float CirclechildY(int circleObjNum, int circleObjMax, int Double)
+    {
+        float angle = circleObjNum * 360 / circleObjMax + 360 / circleObjMax / 2;
+        float y = Mathf.Cos(angle * (Mathf.PI / 180));
+        return y * Double;
+    }
 }
 
 ```
