@@ -7,6 +7,7 @@ category:
 tags:
   - kozos
   - Environment
+  - WSL
 date: 2020-04-16 17:18:52
 ---
 
