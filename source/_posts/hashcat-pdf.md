@@ -1,5 +1,6 @@
 ---
 title: GPUを使ってPDFのパスワードを解析する
+thumbnail: /thumbnail/hashcat.png
 category:
   - Programming
   - Security
