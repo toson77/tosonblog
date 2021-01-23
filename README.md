@@ -2,5 +2,5 @@
 This is My blog repository
 
 Using Vercel and Hexo
-# URL
-to-son.net
+
+https://to-son.net/
