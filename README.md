@@ -1,6 +1,6 @@
 # tosonblog
 This is My blog repository
 
-Using Netlify and Hexo
+Using Vercel and Hexo
 # URL
-https://toson.netlify.com/
+to-son.net
